@@ -1,6 +1,6 @@
-# HTML JS Vite Template for CapRover
+# NodeJS Template for CapRover
 This template can be used as a base for a new repository that will deploy itself to CapRover on every push. 
-It assumes the use of Vite during development, and includes a GitHub Actions script that runs the vite build prior to deploying.
+It assumes the use of NodeJS, and includes a GitHub Actions script that runs `npm install` prior to deploying.
 
 # Usage
 To use this template:
