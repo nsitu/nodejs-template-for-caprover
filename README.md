@@ -1,6 +1,5 @@
 # NodeJS Template for CapRover
-This template can be used as a base for a new repository that will deploy itself to CapRover on every push. 
-It assumes the use of NodeJS, and includes a GitHub Actions script that runs `npm install` prior to deploying.
+This template can be used as a base for a new repository that will deploy itself to CapRover on every push. It assumes the use of NodeJS. GitHub Actions makes a tarball from the files and sends them to CapRover for building and Deploying. The build process happens according to the configuration in `Dockerfile`
 
 # Usage
 To use this template:
